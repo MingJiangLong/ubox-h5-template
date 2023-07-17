@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --ubox-btn-background: linear-gradient(-54deg, #FF5F27 4%, #FF7500 100%);
+  --ubox-grey: #737373;
+  --ubox-title: 18px;
+  --ubox-page-bg: #f4f6f8
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
