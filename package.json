@@ -15,11 +15,12 @@
     "axios": "^1.4.0",
     "decimal.js": "^10.4.3",
     "pinia": "^2.1.4",
+    "postcss": "^8.4.26",
     "postcss-pxtorem": "^6.0.0",
+    "ubox-h5-util": "git+https://github.com/MingJiangLong/ubox-h5-util.git",
     "vite-plugin-html": "^3.2.0",
     "vue": "^3.2.47",
-    "vue-router": "^4.2.1",
-    "ubox-h5-util": "git+https://github.com/MingJiangLong/ubox-h5-util.git"
+    "vue-router": "^4.2.1"
   },
   "devDependencies": {
     "@types/node": "^20.2.3",
