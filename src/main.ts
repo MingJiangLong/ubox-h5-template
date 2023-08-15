@@ -6,8 +6,10 @@ import 'amfe-flexible'
 import Vconsole from 'vconsole'
 import { isLocalEnv } from './utils'
 import { createPinia } from 'pinia'
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 const app = createApp(App);
 const pinia = createPinia();
+pinia.use(piniaPluginPersistedstate)
 if (isLocalEnv) {
   app.use(() => new Vconsole())
 }

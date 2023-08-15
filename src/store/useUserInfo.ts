@@ -8,7 +8,8 @@ export default defineStore('userInfo', {
     }
   },
   getters: {},
-  actions: {}
+  actions: {},
+  persist: true
 })
 
 type State = {
