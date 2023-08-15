@@ -58,16 +58,9 @@ export default defineConfig(({ mode }) => {
       chunkSizeWarningLimit: 5000,
       rollupOptions: {
         output: {
-          entryFileNames: 'assets/entry/[name][hash].js',
-          chunkFileNames: 'assets/chunk/[name][hash].js',
-          assetFileNames: 'assets/file/[name][hash].[ext]',
-          // manualChunks(id) {
-          //   console.log(id);
-
-          //   const NODE_MODULES = 'node_modules'
-          //   if (id.includes(NODE_MODULES)) return 'vendor'
-          //   // return id.split('node_modules/')[1].split('/')[0]
-          // },
+          chunkFileNames: 'static/js/[name]-[hash].js',
+          entryFileNames: 'static/js/[name]-[hash].js',
+          assetFileNames:'static/[ext]/[name]-[hash][extname]',
         },
       }
     },
