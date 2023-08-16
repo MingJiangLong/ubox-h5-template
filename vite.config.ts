@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   const npm_package_name = env.npm_package_name
   return {
-    base: `/${npm_package_name}${isProd ? '' : '-dev'}`,
+    base: `/${npm_package_name}`,
     plugins: [
       vue(),
       legacy({
