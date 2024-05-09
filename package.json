@@ -17,7 +17,6 @@
     "pinia-plugin-persistedstate": "^3.2.0",
     "postcss": "^8.4.26",
     "postcss-pxtorem": "^6.0.0",
-    "ubox-h5-util": "git+https://github.com/MingJiangLong/ubox-h5-util.git",
     "vue": "^3.2.47",
     "vue-router": "^4.2.1"
   },
