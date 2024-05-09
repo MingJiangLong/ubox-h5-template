@@ -13,10 +13,8 @@
     "decimal.js": "^10.4.3",
     "pinia": "^2.1.4",
     "pinia-plugin-persistedstate": "^3.2.0",
-    "ubox-h5-util": "git+https://github.com/MingJiangLong/ubox-h5-util.git",
     "vue": "^3.2.47",
-    "vue-router": "^4.2.1",
-    "exception_desc": "git+https://github.com/MingJiangLong/exception_desc.git"
+    "vue-router": "^4.2.1"
   },
   "devDependencies": {
     "@types/node": "^20.2.3",
